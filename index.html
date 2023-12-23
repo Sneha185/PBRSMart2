@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Corpatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h3>
+                Why do you want to cancel the Order?
+            </h3>
+            <form action="">                          
+            <div class="form_container">              
+        <div class="form_control">
+            <label for="Reason"></label>
+            <select id="reason" name="reason">
+                <option value="">Reason</option>
+                <option value="delivery time">Expected delivery time is too long.</option>
+                <option value="product price">Product price has reduced.</option>
+                <option value="Incorrect">Incorrect product size/color/type ordered.</option>
+                <option value="payment method">Incorrect payment method selected.</option>
+                <option value="wrong">Wrong Address selected.</option>
+                <option value="mistake">Ordered by mistake.</option>
+                <option value="not required">Product not required anymore.</option>
+                <option value="any">Other</option>
+            </select>
+        </div>
+        <div class="form control">
+            <label for="detail">Other</label>
+            <input type="tel" id="phone" name="phone" placeholder="Text here" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        </div>
+        </div>
+        <div class="button_container">
+            <button type="submit"> Submit</button>
+        </div>
+    </form>
+        </div>
+    </div>
+</body>
+</html>
